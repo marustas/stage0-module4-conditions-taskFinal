@@ -7,11 +7,11 @@ public class IntegerDivider {
             int result2 = result1 * divider;
             if (result2 == dividend) {
                 System.out.println("can be divided completely");
-            } else if (result2 == 0) {
-                System.out.println("division by zero");
+            } else {
+                System.out.println("cannot be divided completely");
             }
         } else {
-            System.out.println("cannot be divided completely");
+            System.out.println("division by zero");
         }
     }
 }
