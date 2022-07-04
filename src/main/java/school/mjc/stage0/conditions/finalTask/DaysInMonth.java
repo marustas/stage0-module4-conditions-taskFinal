@@ -37,7 +37,7 @@ public class DaysInMonth {
         } else if (year % 4 == 0) {
             switch (month) {
                 case 1 -> System.out.println(31);
-                case 2 -> System.out.println(28);
+                case 2 -> System.out.println(29);
                 case 3 -> System.out.println(31);
                 case 4 -> System.out.println(30);
                 case 5 -> System.out.println(31);
@@ -53,7 +53,7 @@ public class DaysInMonth {
         } else {
             switch (month) {
                 case 1 -> System.out.println(31);
-                case 2 -> System.out.println(29);
+                case 2 -> System.out.println(28);
                 case 3 -> System.out.println(31);
                 case 4 -> System.out.println(30);
                 case 5 -> System.out.println(31);

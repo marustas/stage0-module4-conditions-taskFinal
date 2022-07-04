@@ -11,7 +11,7 @@ public class SeasonDeterminer {
         } else if (monthNumber >= 3 && monthNumber <= 5) {
             System.out.println("Spring");
         } else {
-            System.out.println("wrong number!");
+            System.out.println("Wrong month number");
         }
     }
 }
